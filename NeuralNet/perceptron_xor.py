@@ -3,7 +3,7 @@ import numpy as np
 
 # OR dataset
 X = np.array([[0,0],[0,1],[1,0],[1,1]])
-y = np.array([[0],[0],[0],[1]])
+y = np.array([[0],[1],[1],[0]])
 
 print("[INFO] training perceptron...")
 p = Perceptron(X.shape[1], alpha=0.1)
